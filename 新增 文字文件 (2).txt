@@ -1,0 +1,241 @@
+HW-21
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"*********       ***         *           *\n";
+    cout<<"*       *     *    *       ***         * *\n";
+    cout<<"*       *    *      *     *****       *   *\n";
+    cout<<"*       *    *      *       *        *     *\n";
+    cout<<"*       *    *      *       *       *       *\n";
+    cout<<"*       *    *      *       *        *     *\n";
+    cout<<"*       *    *      *       *         *   *\n";
+    cout<<"*       *     *    *        *          * *\n";
+    cout<<"*********       ***         *           *\n";
+    return 0;
+}
+
+
+
+
+
+
+HW-23
+
+#include <iostream>
+
+ using namespace std;
+
+ 
+ 
+int 
+main () 
+{
+  
+    int a,b,c;
+    int z=0;
+    int m=0;
+    int n=0;
+    cout<<"請輸入第一個數子";
+    cin>>a;
+    cout<<"請輸入第二個數子";
+    cin>>b;
+    cout<<"請輸入第三個數子";
+    cin>>c;
+    if(a>b && a>c)
+    {
+        cout<<"最大值"<<a<<endl;
+            if(b>c)
+                cout<<"最小值"<<c;
+            else
+                cout<<"最小值"<<b;
+    }
+    if(b>a && b>c)
+    {
+        cout<<"最大值"<<b<<endl;
+            if(a>c)
+                cout<<"最小值"<<c;
+            else
+                cout<<"最小值"<<a;
+    }
+    if(c>a && c>b)
+    {
+        cout<<"最大值"<<c<<endl;
+            if(b>a)
+                cout<<"最小值"<<a;
+            else
+                cout<<"最小值"<<b;
+    }
+    
+     return 0;
+}
+
+HW-24
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    cout<<"請輸入一個數:";
+    cin>>x;
+    if(x%2==0)
+    cout<<"偶數";
+    else 
+    cout<<"奇數";
+   
+    
+    return 0;
+}
+
+
+HW-25
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"PPPPPPPPP\n";
+    cout<<"    P   P\n";
+    cout<<"    P   P\n";
+    cout<<"    P   P\n";
+    cout<<"     P P \n\n";
+    cout<<"  JJ     \n";
+    cout<<" J       \n";
+    cout<<"J        \n";
+    cout<<" J       \n";
+    cout<<"  JJJJJJJ \n\n";
+    cout<<"DDDDDDDDD\n";
+    cout<<"D       D\n";
+    cout<<"D       D\n";
+    cout<<" D     D \n";
+    cout<<"  DDDDD  \n";
+    return 0;
+}
+
+HW-26
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,y;
+    float a=0;
+    cout<<"請輸入第一個數:";
+    cin>>x;
+    cout<<"請輸入第二個數:";
+    cin>>y;
+    if(x>y)
+    {
+        a=x%y;
+        if(a==0)
+        cout<<x<<"是否為"<<y<<"的倍數"<<'\t'<<"是";
+    }
+    else
+        cout<<x<<"是否為"<<y<<"的倍數"<<'\t'<<"否";
+    
+    
+    
+    return 0;
+}
+
+
+HW-27
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<("    *\n");
+    cout<<("   ***\n");
+    cout<<("  *****\n");
+    cout<<(" *******\n");
+    cout<<("*********" );
+
+    return 0;
+}
+
+HW-31
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int x ;
+    cout<<"number"<<'\t'<<"square"<<'\t'<<"cube"<<'\n';
+    for(x=0;x<=10;x++)
+    {
+    cout<<x<<'\t'<<x*x<<'\t'<<x*x*x<<'\n';
+    }
+    
+    return 0;
+}
+
+
+HW-32
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double x,y;
+    cout<<"請輸入你的身高(公尺)體重:";
+    cin>>x>>y;
+    cout<<y/(x*x)<<endl;
+   
+    cout<<"Underweight:"<<'\t'<<"less than 18.5"<<endl;
+    cout<<"Normal:     "<<'\t'<<"between 18.5 and 24.9"<<endl;
+    cout<<"Overweight:"<<'\t'<<"between 25 and 29.9"<<endl;
+    cout<<"Obese:      "<<'\t'<<"30 or greater"<<endl;
+    
+    return 0;
+}
+
+HW-33
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,e;
+    float f;
+    cout<<"請輸入一整天的總里程數:";
+    cin>>a;
+    cout<<"汽油一公升/加侖多少錢:";
+    cin>>b;
+    cout<<"平均一公升/加侖能行駛多少公里:";
+    cin>>c;
+    cout<<"一天的停車費:";
+    cin>>d;
+    cout<<"一天的通行費(過路費):";
+    cin>>e;
+    f=a/c*b;
+    cout<<"使用者一天下來開車去工作的花費:"<<f+d+e;
+   
+   
+    
+    
+    
+    return 0;
+}
+
+
+
